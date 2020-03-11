@@ -10,6 +10,102 @@
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+	<!-- HEADER NAVBAR section - pills -->
+	<div class="container">
+		<!-- header.row>(.col-xs-8.col-sm-4.col-md-6.centered) -->
+		<header class="row">
+			<div class="col-xs-8 col-sm-4 col-md-6 centered">
+				<!-- img.pull-left.logo[src="img/petstore_logo.png"][alt="Pet Store logo"]+h1.pull-left.text-centere{Pet Store}*1 -->
+				<img src="img/petstore_logo.png" alt="Pet Store logo" class="pull-left logo">
+				<h1 class="pull-left text-center">Pet Store</h1>
+				<!-- https://getbootstrap.com/docs/3.3/components/#nav pills -->
+			</div>
+			<nav class="col-xs-12 col-sm-7 col-md-6 centered">
+				<!-- ul.nav.nav-pills>(li[role="presentation"])*3 -->
+				<ul class="nav nav-pills pull-right">
+					<li role="presentation" class="active">
+						<a href="#">Home</a>
+					</li>
+					<li role="presentation" >
+						<a href="#">Products</a>
+					</li>
+					<li role="presentation" >
+						<a href="#">Contact Us</a>
+					</li>
+				</ul>
+			</nav>	
+		</header>
+	</div>
+	<!-- JUMBOTRON--------------------------------------- -->
+	<!-- .jumbotron>.container.text-center.text-uppercase>h2{The products they love.  Prices that you like} -->
+	<div class="jumbotron">
+		<div class="container text-center text-uppercase">
+			<h2>The products they love.  Prices that you like</h2>
+		</div>
+	</div>
+	<!-- Start of FEATURE and ASDIE -->
+	<!-- section.container>.row(.col-sm-7.text-justify.featured>(.row>h2.text-uppercase{FEATURED}+p{lorem14})+(.row>(.col-sm-4.product>.row(.col-sm-12.col-xs-6.img_box>img[src="img/product$.jpg"][alt=""].img-responsive)+(.col-sm-12.col-xs-6>h4+p{lorem8}+button.btn.btn-xs.center-block{Purchase Now}))*3)) -->
+	<section class="container">
+		<div class="row">
+			<div class="col-sm-6 text-justify featured">
+				<div class="row">
+					<h2 class="text-uppercase">FEATURED</h2>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus veniam necessitatibus assumenda minima beatae.</p>
+				</div>
+				<div class="row">
+					<div class="col-sm-4 product">
+						<div class="row"></div>
+						<div class="col-sm-12 col-xs-6 img_box"><img src="img/product1.jpg" alt="" class="img-responsive"></div>
+						<div class="col-sm-12 col-xs-6">
+							<h4></h4>
+							<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+							<button class="btn btn-xs center-block">Purchase Now</button>
+						</div>
+					</div>
+					<div class="col-sm-4 product">
+						<div class="row"></div>
+						<div class="col-sm-12 col-xs-6 img_box"><img src="img/product2.jpg" alt="" class="img-responsive"></div>
+						<div class="col-sm-12 col-xs-6">
+							<h4></h4>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+							<button class="btn btn-xs center-block">Purchase Now</button>
+						</div>
+					</div>
+					<div class="col-sm-4 product">
+						<div class="row"></div>
+						<div class="col-sm-12 col-xs-6 img_box"><img src="img/product3.jpg" alt="" class="img-responsive"></div>
+						<div class="col-sm-12 col-xs-6">
+							<h4></h4>
+							<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+							<button class="btn btn-xs center-block">Purchase Now</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- aside.col-sm-6>h2.text-center.text-uppercase{Services}+ul.nav.nav-pills.nav-stacked.text-center>(li[role="presentation"]>a.text-uppercase[href="#"]{Adopt A }+p{lorem8})*3 -->
+			<aside class="col-sm-6">
+				<h2 class="text-center text-uppercase">Services</h2>
+				<ul class="nav nav-pills nav-stacked text-center">
+					<li role="presentation">
+						<a href="#" class="text-uppercase">Adopt A Cat</a>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+					</li>
+					<li role="presentation">
+						<a href="#" class="text-uppercase">Adopt A Dog</a>
+						<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+					</li>
+					<li role="presentation">
+						<a href="#" class="text-uppercase">Adopt A Fish</a>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+					</li>
+				</ul>
+			</aside>
+		</div>
+	</section>
+
+	<!-- FOOTER -->
+
+
 
 	<!-- scripts -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

@@ -1,3 +1,11 @@
 /* Imports at the top */
 /* <!-- font-family: 'Open Sans', sans-serif;  font-family: 'Roboto', sans-serif; --> */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap');
+
+.brdr {
+    border: black solid 1px;
+}
+
+.logo {
+    width: 90px;
+}
